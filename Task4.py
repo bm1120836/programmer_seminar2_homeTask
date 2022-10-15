@@ -4,8 +4,7 @@
 
 from math import prod
 
-
-with open('1.txt', 'r') as my_file:
+with open('file.txt', 'r') as my_file:
     data = my_file.read()
 lst = data.split()
 result_lst = [int(item) for item in lst]
